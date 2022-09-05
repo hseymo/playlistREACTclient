@@ -1,0 +1,21 @@
+.description {
+    margin: 5px 20px;
+    font-size: 20px;
+}
+
+.center {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container {
+    background-color: var(--teal);
+    margin-top: 20px;
+}
+
+button {
+    margin: 10px;
+    padding: 5px;
+}

@@ -1,0 +1,21 @@
+.createContainer {
+    min-height: 85vh;
+}
+
+#addForm {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+}
+
+#addForm input {
+    width:30vw;
+    padding:5px;
+    margin: 10px;
+}
+
+.homeRedirect {
+    padding: 20px
+}

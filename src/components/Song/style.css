@@ -1,0 +1,32 @@
+.listContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: var(--lightblue);
+    border: 5px solid var(--lightgray);
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.songCard {
+    flex-grow: 1;
+}
+
+.songCard h1 {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.songCard h2 {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.songCard h3 {
+    font-size: 20px;
+    padding: 7px;
+}

@@ -1,0 +1,45 @@
+.singleContainer {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card {
+    background-color: var(--lightblue);
+    border: 5px solid var(--lightgray);
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.singleSong {
+    margin-top: 30px
+}
+
+.singleSong h1 {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.singleSong h2 {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.singleSong h3 {
+    font-size: 20px;
+    padding: 7px;
+}
+
+.subSection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btnSection button {
+    background-color: var(--darkteal);
+    color: var(--lightgray)
+}
